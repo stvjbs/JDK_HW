@@ -4,6 +4,7 @@ public class Philosopher extends Thread {
     private final Fork rightFork;
     private int eatingCounter;
 
+
     public Philosopher(String name, Fork leftFork, Fork rightFork) {
         this.name = name;
         this.leftFork = leftFork;
