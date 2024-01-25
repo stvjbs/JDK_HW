@@ -22,6 +22,7 @@ public class Main {
                 results.put(i, loseWithChangeChoice);
             }
         }
+
         for (Boolean value : results.values()) {
             if (value) countOfWinsByChangedChoice++;
         }
